@@ -10,16 +10,16 @@ from scipy.signal import *
 import FixedPoint as fp
 
 NO_BITS_DAC = 14
-NO_CORDIC_IT = 5 # ?
-NO_BITS_PHASE_ACC = 12     # M = W 
-NO_SAMPLES = 8096
+NO_CORDIC_IT = 12 # ?
+NO_BITS_CORDIC = 40     # M = W 
+NO_SAMPLES = 4096
 SAMPLING_FREQ = 100e6 # Hz
 UPSAMPLE = 60
 
 
 
-def float_to_precision(number, no_bits_fraction, no_bits_int):
-    PREC = fp.FXfamily(no_bits_fraction, no_bits_int )
+def float_to_precision(number, no_bits_int, no_bits_fraction):
+    PREC = fp.FXfamily(no_bits_int, no_bits_fraction)
     return float(PREC(number))
 
 
@@ -60,6 +60,50 @@ class quantizator():
 
 # ================================================================================================================================================
 
+# Grujic CORDIC functions
+
+def CORDIC_iteration(x, y, z, i, mode, scaled=False):
+    """
+    Calculate one iteration of CORDIC algorithm.
+    x, y, z - inputs
+    i - iteration number
+    mode - "rotation" for CORDIC in rotation mode,
+            otherwise calculates in vector mode
+    scaled - True or False. If False, scaling factor is 1.
+    Returns (x, y, z)
+    """
+    sgn = lambda a: (a>=0) - (a<0)
+    if mode=="rotation":
+        sigma = sgn(z)
+    else:
+        sigma = -sgn(y)
+    xnew = x - sigma*y*2**(-i)
+    ynew = y + sigma*x*2**(-i)
+    z = z - sigma * math.atan(2**(-i))
+    if scaled:
+        ki = CORDIC_Ki(i)
+        xnew *= ki
+        ynew *= ki
+    return (xnew, ynew, z)
+
+def CORDIC_Ki(i):
+    """
+    Calculate the scaling factor for i-th iteration
+    """
+    k = 1.0/math.sqrt(1.0+2.0**(-2*i))
+    return k
+
+def CORDIC_Kn(n):
+    """
+    Calculate the overall scaling factor for n iterations
+    """
+    k = 1
+    for i in range(0,n):
+        k *= CORDIC_Ki(i)
+    return k
+
+# ================================================================================================================================================
+
 # CORDIC copied
 
 def CORDIC_scaling_factor_nth_iteration(n):
@@ -70,8 +114,10 @@ def CORDIC_scaling_factor_nth_iteration(n):
 
 # phi in degrees
 def CORDIC(phi):
-    quadrant = int((phi+math.pi)/(math.pi/2))%4
-    theta = phi + math.pi - quadrant * math.pi/2
+    quadrant = (int(phi/91)%4)
+    phi1 = phi - quadrant *90
+    theta =  phi1 * np.pi/180    # radians
+
     x =CORDIC_scaling_factor_nth_iteration(NO_CORDIC_IT)
     y = 0
     z = theta
@@ -82,13 +128,13 @@ def CORDIC(phi):
         y = y + sigma*x*2**(-i)
         x = xnew
         z = z - sigma * math.atan(2**(-i))
-    if quadrant == 2:
+    if quadrant == 0:
         return x
-    elif quadrant == 3:
-        return -y
-    elif quadrant == 0:
-        return -x
     elif quadrant == 1:
+        return -y
+    elif quadrant == 2:
+        return -x
+    elif quadrant == 3:
         return y
 
 # ================================================================================================================================================
@@ -97,16 +143,12 @@ def CORDIC(phi):
 
 def generate_phase(f0):
     phi0 = np.zeros(NO_SAMPLES)
-    step = float_to_precision(f0 / SAMPLING_FREQ *2 , NO_BITS_PHASE_ACC - 3,3) 
-    # 2 times smaller sampling freq cause 
-    noise = np.random.uniform(0, 0.0000005,NO_SAMPLES)
-    # phi0 += noise
-    array_precision = []
-    for i in (np.cumsum([step] * NO_SAMPLES + phi0)%2-1)*math.pi :
-        array_precision.append(float_to_precision(i, NO_BITS_PHASE_ACC - 3,3))
+    step = f0 / SAMPLING_FREQ
+    # float_to_precision
+    noise = np.random.uniform(0, 0.000005,NO_SAMPLES)
+    phi0 += noise
 
-    return array_precision
-    # return (np.cumsum([step] * NO_SAMPLES + phi0)%2-1)*math.pi
+    return (np.cumsum([step] * NO_SAMPLES + phi0)%1)
 
 # ================================================================================================================================================
 
@@ -127,7 +169,7 @@ def FFT_analog(val):
     spec = spec[freqs >= 0]
     spec[spec == 0] = 1e-18
     freqs = freqs[freqs >= 0]
-    spec_db = 20 * np.log10(np.abs(spec) / len(val) * 2)
+    # spec_db = 20 * np.log10(np.abs(spec) / len(val) * 2)
     return freqs, spec
 
 # ================================================================================================================================================
@@ -151,8 +193,7 @@ def DAC_brz(samples, upsample):
     upsample2 = int(upsample/2)
     upsample3 = upsample-upsample2
     upsample2 -=upsample1
-    new_samples = np.array([samples]*upsample1 + [-samples]*upsample2 +
-                           [0*samples]*upsample3)
+    new_samples = np.array([samples]*upsample1 + [-samples]*upsample2 + [0*samples]*upsample3)
     new_samples = new_samples.transpose().flatten()
     dither = 0 * np.random.uniform(0,quant.delta**2/12,NO_SAMPLES*UPSAMPLE)
     new_samples = quant(new_samples+dither)
@@ -225,10 +266,10 @@ H_times_Hsinc =  20*np.log10(np.absolute(H_sinc * H))
 
 # test function
 
-signal_freq = 17.3e6
-generated_phase = generate_phase(signal_freq)
-plt.plot(generated_phase)
-plt.show()
+signal_freq = 10e6
+generated_phase = generate_phase(signal_freq) *360        # in degrees
+# plt.plot(generated_phase)
+# plt.show()
 
 cordic_sine = np.array([])
 for i in generated_phase:
@@ -241,10 +282,7 @@ my_freqs, my_spec = FFT_digital(cordic_sine)
 my_spec_db = 20 * np.log10(np.abs(my_spec) / len(cordic_sine) * 2)
 
 plt.plot(my_freqs/SAMPLING_FREQ, my_spec_db)
-plt.ylim(-80,10)
 plt.show()
-
-
 
 
 cordic_sine_through_FIR = np.convolve(cordic_sine,h_invsinc,mode='same')

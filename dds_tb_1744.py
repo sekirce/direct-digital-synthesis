@@ -10,9 +10,9 @@ from scipy.signal import *
 import FixedPoint as fp
 
 NO_BITS_DAC = 14
-NO_CORDIC_IT = 5 # ?
-NO_BITS_PHASE_ACC = 12     # M = W 
-NO_SAMPLES = 8096
+NO_CORDIC_IT = 12 # ?
+NO_BITS_PHASE_ACC = 40     # M = W 
+NO_SAMPLES = 4096
 SAMPLING_FREQ = 100e6 # Hz
 UPSAMPLE = 60
 
@@ -72,6 +72,7 @@ def CORDIC_scaling_factor_nth_iteration(n):
 def CORDIC(phi):
     quadrant = int((phi+math.pi)/(math.pi/2))%4
     theta = phi + math.pi - quadrant * math.pi/2
+
     x =CORDIC_scaling_factor_nth_iteration(NO_CORDIC_IT)
     y = 0
     z = theta
@@ -97,16 +98,15 @@ def CORDIC(phi):
 
 def generate_phase(f0):
     phi0 = np.zeros(NO_SAMPLES)
-    step = float_to_precision(f0 / SAMPLING_FREQ *2 , NO_BITS_PHASE_ACC - 3,3) 
-    # 2 times smaller sampling freq cause 
-    noise = np.random.uniform(0, 0.0000005,NO_SAMPLES)
-    # phi0 += noise
+    step = float_to_precision(f0 / SAMPLING_FREQ, NO_BITS_PHASE_ACC - 3,3)
+    # float_to_precision
+    noise = np.random.uniform(0, 0.000005,NO_SAMPLES)
+    phi0 += noise
     array_precision = []
     for i in (np.cumsum([step] * NO_SAMPLES + phi0)%2-1)*math.pi :
         array_precision.append(float_to_precision(i, NO_BITS_PHASE_ACC - 3,3))
 
     return array_precision
-    # return (np.cumsum([step] * NO_SAMPLES + phi0)%2-1)*math.pi
 
 # ================================================================================================================================================
 
@@ -225,7 +225,7 @@ H_times_Hsinc =  20*np.log10(np.absolute(H_sinc * H))
 
 # test function
 
-signal_freq = 17.3e6
+signal_freq = 10e6
 generated_phase = generate_phase(signal_freq)
 plt.plot(generated_phase)
 plt.show()
@@ -237,15 +237,12 @@ for i in generated_phase:
 plt.plot(cordic_sine)
 plt.show()
 
+
 my_freqs, my_spec = FFT_digital(cordic_sine)
 my_spec_db = 20 * np.log10(np.abs(my_spec) / len(cordic_sine) * 2)
 
 plt.plot(my_freqs/SAMPLING_FREQ, my_spec_db)
-plt.ylim(-80,10)
 plt.show()
-
-
-
 
 cordic_sine_through_FIR = np.convolve(cordic_sine,h_invsinc,mode='same')
 analog, time = DAC_nrz(cordic_sine_through_FIR, UPSAMPLE)
