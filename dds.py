@@ -5,10 +5,10 @@ import math
 from decimal import *
 
 NO_BITS_DAC = 14
-NO_CORDIC_IT = 12 # ?
+NO_CORDIC_IT = 4 # ?
 NO_SAMPLES = 4096
 SAMPLING_FREQ = 100e6 # Hz
-UPSAMPLE = 60
+UPSAMPLE = 30
 
 
 # quatizator class
@@ -83,8 +83,9 @@ def PhaseSamples(f0):
     phi0 = np.zeros(NO_SAMPLES)
     step = f0 / SAMPLING_FREQ
     noise = np.random.uniform(0, 0.000005,NO_SAMPLES)
-    # phi0 += noise
+    phi0 += noise
     return (np.cumsum([step] * NO_SAMPLES + phi0)%1)
+
 
 
 def DAC_nrz(samples, upsample):
