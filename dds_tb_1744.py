@@ -1,4 +1,4 @@
-
+#OVO JE SAMO KOMENTAR
 import math
 
 import numpy as np
