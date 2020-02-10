@@ -24,7 +24,7 @@ FIR_FILTER_ORDER = 7
 
 WORKING_DIRECTORY  = os.path.abspath(os.getcwd())
 
-print(WORKING_DIRECTORY)
+# print(WORKING_DIRECTORY)
 
 # fixed float point function
 

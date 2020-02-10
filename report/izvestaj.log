@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 NEXT 64-bit) (preloaded format=pdflatex 2020.2.2)  2 FEB 2020 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 NEXT 64-bit) (preloaded format=pdflatex 2020.2.2)  10 FEB 2020 23:08
 entering extended mode
-**D:/ext_electronics/faculty/oe5hsos/izvestaj/izvestaj.tex
-(D:/ext_electronics/faculty/oe5hsos/izvestaj/izvestaj.tex
+**E:/aleksandarv/Documents/GitHub/direct-digital-synthesis/report/izvestaj.tex
+(E:/aleksandarv/Documents/GitHub/direct-digital-synthesis/report/izvestaj.tex
 LaTeX2e <2018-12-01>
 (IEEEJERM.cls
 Document Class: IEEEJERM 2014/09/17 V1.8a by Michael Shell
@@ -600,6 +600,203 @@ Package: xparse 2019-05-28 L3 Experimental document command parser
 \l__xparse_m_args_int=\count195
 \l__xparse_v_nesting_int=\count196
 )
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyp
+erref.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hobsub\hobsu
+b-hyperref.sty"
+Package: hobsub-hyperref 2019-11-14
+hobsub not currently supported, see hobsub.dtx to extract original code
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\lt
+xcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvt
+ex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifte
+x.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\p
+dftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\
+infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\
+kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefineke
+ys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\
+pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hyco
+lor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\
+letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+))
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxh
+ook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpd
+f.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifxe
+tex.sty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kv
+options.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1
+enc.def"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\in
+tcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\e
+texcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count199
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyp
+erref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count266
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen163
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bit
+set.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc
+\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count267
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\a
+tbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count268
+\c@Item=\count269
+\c@Hfootnote=\count270
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpd
+ftex.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\at
+veryend.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count271
+\c@bookmark@seq@number=\count272
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfileche
+ck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecoun
+ter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip50
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tri
+g.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
+\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.
+sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count273
+\float@exts=\toks17
+\float@box=\box50
+\@float@everytoks=\toks18
+\@floatcapt=\box51
+)
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lst
 lang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
@@ -607,7 +804,7 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsm
 ath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 
@@ -618,66 +815,66 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsg
 en.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen162
+\@emptytoks=\toks19
+\ex@=\dimen168
 ))
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsb
 sy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen163
+\pmbraise@=\dimen169
 )
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amso
 pn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count197
+\inf@bad=\count274
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count198
-\leftroot@=\count199
+\uproot@=\count275
+\leftroot@=\count276
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count266
-\DOTSCASE@=\count267
+\classnum@=\count277
+\DOTSCASE@=\count278
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen164
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen170
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count268
-\c@MaxMatrixCols=\count269
-\dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
-\tag@help=\toks18
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
-\andhelp@=\toks19
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
-\@envbody=\toks20
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks21
+\macc@depth=\count279
+\c@MaxMatrixCols=\count280
+\dotsspace@=\muskip17
+\c@parentequation=\count281
+\dspbrk@lvl=\count282
+\tag@help=\toks20
+\row@=\count283
+\column@=\count284
+\maxfields@=\count285
+\andhelp@=\toks21
+\eqnshift@=\dimen171
+\alignsep@=\dimen172
+\tagshift@=\dimen173
+\tagwidth@=\dimen174
+\totwidth@=\dimen175
+\lineht@=\dimen176
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.
 sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen171
-\ar@mcellbox=\box52
-\extrarowheight=\dimen172
-\NC@list=\toks22
-\extratabsurround=\skip53
-\backup@length=\skip54
-\ar@cellbox=\box53
+\col@sep=\dimen177
+\ar@mcellbox=\box54
+\extrarowheight=\dimen178
+\NC@list=\toks24
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box55
 )
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunitx\siun
 itx.sty"
@@ -687,46 +884,46 @@ Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
 3keys2e\l3keys2e.sty"
 Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box54
-\l__siunitx_tmp_dim=\dimen173
-\l__siunitx_tmp_int=\count275
-\l__siunitx_number_mantissa_length_int=\count276
-\l__siunitx_number_uncert_length_int=\count277
-\l__siunitx_round_int=\count278
-\l__siunitx_process_decimal_int=\count279
-\l__siunitx_process_uncertainty_int=\count280
-\l__siunitx_process_fixed_int=\count281
-\l__siunitx_process_integer_min_int=\count282
-\l__siunitx_process_precision_int=\count283
-\l__siunitx_group_min_int=\count284
-\l__siunitx_angle_marker_box=\box55
-\l__siunitx_angle_unit_box=\box56
-\l__siunitx_angle_marker_dim=\dimen174
-\l__siunitx_angle_unit_dim=\dimen175
-\l__siunitx_unit_int=\count285
-\l__siunitx_unit_denominator_int=\count286
-\l__siunitx_unit_numerator_int=\count287
-\l__siunitx_unit_prefix_int=\count288
-\l__siunitx_unit_prefix_base_int=\count289
-\l__siunitx_unit_prefix_gram_int=\count290
-\l__siunitx_number_product_int=\count291
-\c__siunitx_one_fill_skip=\skip55
-\l__siunitx_table_unit_align_skip=\skip56
-\l__siunitx_table_exponent_dim=\dimen176
-\l__siunitx_table_integer_dim=\dimen177
-\l__siunitx_table_mantissa_dim=\dimen178
-\l__siunitx_table_marker_dim=\dimen179
-\l__siunitx_table_result_dim=\dimen180
-\l__siunitx_table_uncert_dim=\dimen181
-\l__siunitx_table_fill_pre_dim=\dimen182
-\l__siunitx_table_fill_post_dim=\dimen183
-\l__siunitx_table_fill_mid_dim=\dimen184
-\l__siunitx_table_pre_box=\box57
-\l__siunitx_table_post_box=\box58
-\l__siunitx_table_mantissa_box=\box59
-\l__siunitx_table_result_box=\box60
-\l__siunitx_table_number_align_skip=\skip57
-\l__siunitx_table_text_align_skip=\skip58
+\l__siunitx_tmp_box=\box56
+\l__siunitx_tmp_dim=\dimen179
+\l__siunitx_tmp_int=\count286
+\l__siunitx_number_mantissa_length_int=\count287
+\l__siunitx_number_uncert_length_int=\count288
+\l__siunitx_round_int=\count289
+\l__siunitx_process_decimal_int=\count290
+\l__siunitx_process_uncertainty_int=\count291
+\l__siunitx_process_fixed_int=\count292
+\l__siunitx_process_integer_min_int=\count293
+\l__siunitx_process_precision_int=\count294
+\l__siunitx_group_min_int=\count295
+\l__siunitx_angle_marker_box=\box57
+\l__siunitx_angle_unit_box=\box58
+\l__siunitx_angle_marker_dim=\dimen180
+\l__siunitx_angle_unit_dim=\dimen181
+\l__siunitx_unit_int=\count296
+\l__siunitx_unit_denominator_int=\count297
+\l__siunitx_unit_numerator_int=\count298
+\l__siunitx_unit_prefix_int=\count299
+\l__siunitx_unit_prefix_base_int=\count300
+\l__siunitx_unit_prefix_gram_int=\count301
+\l__siunitx_number_product_int=\count302
+\c__siunitx_one_fill_skip=\skip56
+\l__siunitx_table_unit_align_skip=\skip57
+\l__siunitx_table_exponent_dim=\dimen182
+\l__siunitx_table_integer_dim=\dimen183
+\l__siunitx_table_mantissa_dim=\dimen184
+\l__siunitx_table_marker_dim=\dimen185
+\l__siunitx_table_result_dim=\dimen186
+\l__siunitx_table_uncert_dim=\dimen187
+\l__siunitx_table_fill_pre_dim=\dimen188
+\l__siunitx_table_fill_post_dim=\dimen189
+\l__siunitx_table_fill_mid_dim=\dimen190
+\l__siunitx_table_pre_box=\box59
+\l__siunitx_table_post_box=\box60
+\l__siunitx_table_mantissa_box=\box61
+\l__siunitx_table_result_box=\box62
+\l__siunitx_table_number_align_skip=\skip58
+\l__siunitx_table_text_align_skip=\skip59
 
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\t
 ranslator.sty"
@@ -740,13 +937,13 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 ion3.sty"
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen185
-\captionmargin@=\dimen186
-\captionwidth=\dimen187
-\caption@tempdima=\dimen188
-\caption@indent=\dimen189
-\caption@parindent=\dimen190
-\caption@hangindent=\dimen191
+\captionmargin=\dimen191
+\captionmargin@=\dimen192
+\captionwidth=\dimen193
+\caption@tempdima=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
@@ -761,71 +958,105 @@ ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
 \else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
 \fi  on input line 1082.
 )
-\c@KVtest=\count292
-\sf@farskip=\skip59
-\sf@captopadj=\dimen192
-\sf@capskip=\skip60
-\sf@nearskip=\skip61
-\c@subfigure=\count293
-\c@subfigure@save=\count294
-\c@lofdepth=\count295
-\c@subtable=\count296
-\c@subtable@save=\count297
-\c@lotdepth=\count298
-\sf@top=\skip62
-\sf@bottom=\skip63
-)
-("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+\c@KVtest=\count303
+\sf@farskip=\skip60
+\sf@captopadj=\dimen198
+\sf@capskip=\skip61
+\sf@nearskip=\skip62
+\c@subfigure=\count304
+\c@subfigure@save=\count305
+\c@lofdepth=\count306
+\c@subtable=\count307
+\c@subtable@save=\count308
+\c@lotdepth=\count309
+\sf@top=\skip63
+\sf@bottom=\skip64
 ) (izvestaj.aux)
 \openout1 = `izvestaj.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for T2A+phv on input line 65.
+LaTeX Font Info:    No file T2Aphv.fd. on input line 65.
 
 
-LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 56.
+LaTeX Font Warning: Font shape `T2A/phv/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 65.
 
 
-LaTeX Font Warning: Font shape `T2A/ptm/m/it' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 56.
+LaTeX Font Warning: Font shape `T2A/phv/bx/n' undefined
+(Font)              using `T2A/phv/m/n' instead on input line 65.
 
 
-LaTeX Font Warning: Font shape `T2A/ptm/bx/it' undefined
-(Font)              using `T2A/ptm/bx/n' instead on input line 56.
+LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
+(Font)              using `T2A/phv/m/n' instead on input line 65.
+
+
+LaTeX Font Warning: Font shape `T2A/phv/bx/it' undefined
+(Font)              using `T2A/phv/bx/n' instead on input line 65.
 
 -- Lines per column: 56 (exact).
-\c@lstlisting=\count299
+\c@lstlisting=\count310
 
 ("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\
 supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen193
-\scratchbox=\box61
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen194
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count311
+\scratchdimen=\dimen199
+\scratchbox=\box63
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen256
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks26
 )
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg
+\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring OFF on input line 65.
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nam
+eref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\ref
+count.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlest
+ring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count317
+)
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
+ (izvestaj.out) (izvestaj.out)
+\@outlinefile=\write3
+\openout3 = `izvestaj.out'.
+
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -916,27 +1147,922 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
-LaTeX Font Warning: Font shape `T2A/ptm/m/sc' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 89.
+LaTeX Font Warning: Font shape `T2A/phv/m/sc' undefined
+(Font)              using `T2A/phv/m/n' instead on input line 101.
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 98.
 
-("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1pt
-m.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Try loading font information for T2A+pcr on input line 135.
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRU' on input line 101.
 
-LaTeX Font Info:    No file T2Apcr.fd. on input line 135.
 
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 101.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 101.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrd' on input line 101.
+
+LaTeX Font Info:    Try loading font information for T2A+pcr on input line 104.
+
+LaTeX Font Info:    No file T2Apcr.fd. on input line 104.
 
 LaTeX Font Warning: Font shape `T2A/pcr/m/n' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 135.
+(Font)              using `T2A/cmr/m/n' instead on input line 104.
 
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 108.
+
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ph
+v.fd"
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[]\T2A/phv/bx/it/10 генерисана си-ну-со-и-да у оп-се-гу од
+ []
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRSH' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrch' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrf' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrz' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrg' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrm' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 116.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 116.
+
+<fazni_akumulator_izlaz.pdf, id=40, 414.23228pt x 315.00719pt>
+File: fazni_akumulator_izlaz.pdf Graphic file (type pdf)
+<use fazni_akumulator_izlaz.pdf>
+Package pdftex.def Info: fazni_akumulator_izlaz.pdf  used on input line 143.
+(pdftex.def)             Requested size: 226.79846pt x 172.4758pt.
+
+Underfull \vbox (badness 1596) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRA' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrh' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrg' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrd' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrb' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 152.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 152.
+
+<cordic_sample.pdf, id=43, 412.99509pt x 315.00719pt>
+File: cordic_sample.pdf Graphic file (type pdf)
+<use cordic_sample.pdf>
+Package pdftex.def Info: cordic_sample.pdf  used on input line 160.
+(pdftex.def)             Requested size: 226.79846pt x 172.99011pt.
+<cordic_fft.pdf, id=44, 415.2454pt x 315.00719pt>
+File: cordic_fft.pdf Graphic file (type pdf)
+<use cordic_fft.pdf>
+Package pdftex.def Info: cordic_fft.pdf  used on input line 168.
+(pdftex.def)             Requested size: 226.79846pt x 172.05283pt.
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrf' on input line 177.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 177.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 177.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 177.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 177.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 177.
+
+<sinx_korekcija.pdf, id=47, 410.24538pt x 315.38074pt>
+File: sinx_korekcija.pdf Graphic file (type pdf)
+<use sinx_korekcija.pdf>
+Package pdftex.def Info: sinx_korekcija.pdf  used on input line 190.
+(pdftex.def)             Requested size: 226.79846pt x 174.35503pt.
 [1{C:/Users/aleksandarv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.193 \end{figure}
+                   <./fazni_akumulator_izlaz.pdf>]
+<varijacija_amplitude_fir.pdf, id=99, 433.39902pt x 315.00719pt>
+File: varijacija_amplitude_fir.pdf Graphic file (type pdf)
+<use varijacija_amplitude_fir.pdf>
+Package pdftex.def Info: varijacija_amplitude_fir.pdf  used on input line 197.
+(pdftex.def)             Requested size: 226.79846pt x 164.8429pt.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRA' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrg' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrf' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 203.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 203.
+
+<lp_fft.pdf, id=101, 424.23233pt x 315.00719pt>
+File: lp_fft.pdf Graphic file (type pdf)
+<use lp_fft.pdf>
+Package pdftex.def Info: lp_fft.pdf  used on input line 213.
+(pdftex.def)             Requested size: 226.79846pt x 168.40941pt.
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRP' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrs' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrnje' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrs' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrp' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrs' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrd' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrz' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrc' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrje' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrf' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrz' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrm' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrp' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrd' on input line 218.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 218.
+
+<da_fft.pdf, id=105, 424.23233pt x 315.00719pt>
+File: da_fft.pdf Graphic file (type pdf)
+<use da_fft.pdf>
+Package pdftex.def Info: da_fft.pdf  used on input line 231.
+(pdftex.def)             Requested size: 226.79846pt x 168.40941pt.
+<da_ifft.pdf, id=106, 432.2879pt x 315.00719pt>
+File: da_ifft.pdf Graphic file (type pdf)
+<use da_ifft.pdf>
+Package pdftex.def Info: da_ifft.pdf  used on input line 238.
+(pdftex.def)             Requested size: 226.79846pt x 165.26588pt.
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRM' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrs' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrm' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrdzhe' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 244.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 244.
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.254 
+       <./cordic_sample.pdf> <./cordic_fft.pdf
+
+pdfTeX warning: pdflatex (file ./cordic_fft.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./sinx_korekcija.pdf
+
+pdfTeX warning: pdflatex (file ./sinx_korekcija.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <./varijacija_amplitude_fir.pdf
+
+pdfTeX warning: pdflatex (file ./varijacija_amplitude_fir.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRO' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrd' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrb' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrnje' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrtshe' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrje' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRN' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrs' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrje' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrz' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 265.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 265.
+
+<bp_fft.pdf, id=184, 424.23233pt x 315.00719pt>
+File: bp_fft.pdf Graphic file (type pdf)
+<use bp_fft.pdf>
+Package pdftex.def Info: bp_fft.pdf  used on input line 293.
+(pdftex.def)             Requested size: 226.79846pt x 168.40941pt.
+<da_brz_fft.pdf, id=185, 424.23233pt x 315.00719pt>
+File: da_brz_fft.pdf Graphic file (type pdf)
+<use da_brz_fft.pdf>
+Package pdftex.def Info: da_brz_fft.pdf  used on input line 300.
+(pdftex.def)             Requested size: 226.79846pt x 168.40941pt.
+<da_brz_ifft.pdf, id=186, 423.39899pt x 315.00719pt>
+File: da_brz_ifft.pdf Graphic file (type pdf)
+<use da_brz_ifft.pdf>
+Package pdftex.def Info: da_brz_ifft.pdf  used on input line 307.
+(pdftex.def)             Requested size: 226.79846pt x 168.73625pt.
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRZ' on input line 314.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 314.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 314.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrlje' on input line 314.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 314.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrch' on input line 314.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 314.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 314.
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -948,50 +2074,111 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
+has been already used, duplicate ignored
 
-] (izvestaj.aux
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 3.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.326 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.7}) has been already used, duplicate ignored
 
-("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.326 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.326 \end{document}
+                     <./lp_fft.pdf> <./da_fft.pdf
+
+pdfTeX warning: pdflatex (file ./da_fft.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <./da_ifft.pdf
+
+pdfTeX warning: pdflatex (file ./da_ifft.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] [4pdfTeX warning (ext4): destination with the same identifier (name{figure.9
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.326 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.326 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.326 \end{document}
+                    
+
+ <./bp_fft.pdf> <./da_brz_fft.pdf
+
+pdfTeX warning: pdflatex (file ./da_brz_fft.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./da_brz_ifft.pdf
+
+pdfTeX warning: pdflatex (file ./da_brz_ifft.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+ (izvestaj.aux
+LaTeX Font Info:    Try loading font information for T1+phv on input line 20.
+
+("C:\Users\aleksandarv\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1phv
 .fd"
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package rerunfilecheck Info: File `izvestaj.out' has not changed.
+(rerunfilecheck)             Checksum: FF0D7DF12CAB4E3A3340B1CBD013FF8A;365.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  ) 
 Here is how much of TeX's memory you used:
- 18835 strings out of 492891
- 363060 string characters out of 3120829
- 517893 words of memory out of 3000000
- 22657 multiletter control sequences out of 15000+200000
- 566979 words of font info for 87 fonts, out of 3000000 for 9000
+ 23184 strings out of 492891
+ 434826 string characters out of 3120829
+ 607132 words of memory out of 3000000
+ 26819 multiletter control sequences out of 15000+200000
+ 567144 words of font info for 87 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,9n,61p,959b,815s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,61p,888b,900s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\aleksandarv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi
 600\larm0800.pk>{C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/e
 nc/dvips/base/8r.enc} <C:\Users\aleksandarv\AppData\Local\MiKTeX\2.9\fonts/pk/l
-jfour/lh/lh-t2a/dpi600\larm0900.pk> <C:\Users\aleksandarv\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\aleksandarv\AppData
-\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\aleks
-andarv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2488.pk><C
-:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aleksandarv/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aleksandarv/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Use
-rs/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr5.pfb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aleksandarv/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aleks
-andarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
-s/utmr8a.pfb>
-Output written on izvestaj.pdf (2 pages, 152098 bytes).
+jfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\aleksandarv\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\aleksandarv\AppData
+\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2488.pk><C:/Users/aleksa
+ndarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aleksandarv/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aleksandarv
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr5.pfb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Users/aleksandarv/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/aleksandarv/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><C:/Users/aleksandarv/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/helvetic/uhvr8a.pfb>
+Output written on izvestaj.pdf (4 pages, 407959 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
