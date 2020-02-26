@@ -1,7 +1,0 @@
-include ChangeLog
-include demo.py
-include LICENSE
-include Makefile
-include MANIFEST.in
-include README.txt
-include ToDo

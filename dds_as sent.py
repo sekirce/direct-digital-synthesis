@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import *
 from matplotlib import rc
-rc('text', usetex=True)
+#rc('text', usetex=True)
 
 # https://github.com/rwpenney/spfpm/blob/master/FixedPoint.py
 import FixedPoint as fp
@@ -138,8 +138,8 @@ def FFT_upsampled(val):    # upsampled
 def DAC_nrz(samples, upsample):
     quant = quantizator(NO_BITS_DAC)
     new_samples = np.array([samples] * upsample).transpose().flatten()
-    dither = 1 * np.random.normal(0,0.05,NO_SAMPLES*UPSAMPLE)
-    #new_samples = quant(new_samples+dither)
+    dither = 0 * np.random.normal(0,0.05,NO_SAMPLES*UPSAMPLE)
+    new_samples = quant(new_samples+dither)
     time = np.cumsum([1.0/SAMPLING_FREQ/upsample] * (len(samples)*upsample))
     return (new_samples, time)
 
@@ -245,7 +245,7 @@ plt.xlabel("$F=f/f_s$" )
 plt.ylabel("$H$ [dB]")
 plt.legend(loc='upper left')
 plt.grid(True)
-plt.savefig('slike/sinx_korekcija.pdf',bbox_inches='tight')
+#plt.savefig('slike/sinx_korekcija.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -262,7 +262,7 @@ plt.plot([0,w[-1]], [0.05, 0.05], 'r', label=r'limits')
 plt.plot([0,w[-1]], [-0.05, -0.05], 'r')
 plt.legend(loc='upper left')
 plt.grid(True)
-plt.savefig('slike/varijacija_amplitude_fir.pdf',bbox_inches='tight')
+#plt.savefig('slike/varijacija_amplitude_fir.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -281,7 +281,7 @@ plt.xlabel("$t$ [s]")
 plt.ylabel("$\\varphi$ [rad]")
 plt.xlim(0,100)
 plt.grid(True)
-plt.savefig('slike/fazni_akumulator_izlaz.pdf',bbox_inches='tight')
+#plt.savefig('slike/fazni_akumulator_izlaz.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -296,7 +296,7 @@ plt.plot(cordic_sine)
 plt.xlabel("$t$ [s]")
 plt.xlim(0,100)
 plt.grid(True)
-plt.savefig('slike/cordic_sample.pdf',bbox_inches='tight')
+#plt.savefig('slike/cordic_sample.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -312,7 +312,7 @@ plt.xlabel("$F=f/f_s$" )
 plt.plot([0,my_freqs[-1]/SAMPLING_FREQ], [-35, -35], 'r',label=r'referent')
 plt.legend(loc='upper left')
 plt.grid(True)
-plt.savefig('slike/cordic_fft.pdf',bbox_inches='tight')
+#plt.savefig('slike/cordic_fft.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -325,9 +325,9 @@ plt.plot(time*1e6, analog)
 plt.xlim(0,1)
 plt.ylabel("$H$")
 plt.xlabel("$t$ [us]")
-plt.savefig('slike/output_da_nrz.pdf')
+#plt.savefig('slike/output_da_nrz.pdf')
 plt.grid(True)
-plt.savefig('slike/da_sample_no_filter.pdf',bbox_inches='tight')
+#plt.savefig('slike/da_sample_no_filter.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -344,7 +344,7 @@ plt.axvline(x=40, color='b', linestyle='--')
 plt.axvline(x=60, color='r', linestyle='--')
 plt.xlim(0,300)
 plt.grid(True)
-plt.savefig('slike/lp_fft.pdf',bbox_inches='tight')
+#plt.savefig('slike/lp_fft.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -362,7 +362,7 @@ plt.ylabel("$H$ [dB]")
 plt.xlabel("$f$ [MHz]")
 plt.legend(loc='upper right')
 plt.grid(True)
-plt.savefig('slike/da_fft.pdf',bbox_inches='tight')
+#plt.savefig('slike/da_fft.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -374,7 +374,7 @@ plt.xlim(0.0005,0.001)
 plt.ylabel("$v$")
 plt.xlabel("$t$ [us] ")
 plt.grid(True)
-plt.savefig('slike/da_ifft.pdf',bbox_inches='tight')
+#plt.savefig('slike/da_ifft.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -391,7 +391,7 @@ plt.ylabel("$H$")
 plt.xlim(0,1)
 plt.xlabel("$t$ [s]")
 plt.grid(True)
-plt.savefig('slike/da_brz_sample.pdf',bbox_inches='tight')
+#plt.savefig('slike/da_brz_sample.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -410,7 +410,7 @@ plt.axvline(x=100, color='b', linestyle='--')
 plt.axvline(x=140, color='b', linestyle='--')
 plt.axvline(x=160, color='r', linestyle='--')
 plt.grid(True)
-plt.savefig('slike/bp_fft.pdf',bbox_inches='tight')
+#plt.savefig('slike/bp_fft.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -428,7 +428,7 @@ plt.axvline(x=150, color='k', linestyle='--')
 plt.plot([0,fft_freqs[-1]], [-60, -60], 'r', label=r'suppression lvl needed')
 plt.legend(loc='upper left')
 plt.grid(True)
-plt.savefig('slike/da_brz_fft.pdf',bbox_inches='tight')
+#plt.savefig('slike/da_brz_fft.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
@@ -439,7 +439,7 @@ plt.ylabel("$v$")
 plt.xlabel("$t$ [us]")
 plt.xlim(0,1000)
 plt.grid(True)
-plt.savefig('slike/da_brz_ifft.pdf',bbox_inches='tight')
+#plt.savefig('slike/da_brz_ifft.pdf',bbox_inches='tight')
 plt.show()
 # ================================================================================================================================================
 
